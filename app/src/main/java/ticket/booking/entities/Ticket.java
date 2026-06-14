@@ -7,7 +7,6 @@ public class Ticket{
     private String ticketNum;
     private String source;
     private String destination;
-    private String userId;
     private Date dateOfTravel;
     private Train train;
 }

@@ -8,3 +8,4 @@ public class User{
     private String password;
     private String hashedPassword;
     private List<Ticket> ticketsBooked;
+}
