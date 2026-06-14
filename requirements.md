@@ -32,3 +32,12 @@ Since this is a ticketing system, here's what the basic requirements are:
    3. DateTime - Dept_Time
    4. DateTime - Arrival_Time
    5. Bool 2DArray - Seats
+
+## Services
+
+1. UserBookingService
+   1. loginUser(User user)
+   2. signUp(User user)
+   3. fetchBooking()
+   4. cancelBooking()
+   5. bookTicket(String a, String b)
