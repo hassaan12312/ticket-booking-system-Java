@@ -1,0 +1,29 @@
+[
+    {
+        "user_id": "abcdef",
+        "user_name": "Hassaan",
+        "tickets_booked": [
+            {
+                "source":"Lahore",
+                "destination":"Karachi",
+                "date_of_travrl":"2023-12-06T18:30:00Z",
+                "train": {
+                    "train_id": "bacs",
+                    "train_num":"12",
+                    "seats": [
+                        [0,0,0,0,0],
+                        [0,0,0,0,0],
+                        [0,0,0,0,0],
+                        [0,0,0,0,0],
+                        [0,0,0,0,0],
+                    ],
+                    "stations":{
+                        "Lahore": "12:00:00",
+                        "Karachi": "01:00:00",
+                        "Faisalabad": "02:00:00"
+                    }
+                }
+            }
+        ]
+    }
+]
