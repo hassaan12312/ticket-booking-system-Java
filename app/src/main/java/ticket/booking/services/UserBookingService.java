@@ -11,7 +11,7 @@ import ticket.booking.entities.User;
 public class UserBookingService{
     
     private User user;
-    private static final String USERS_PATH = "../localDb/users.json";
+    private static final String USERS_PATH = " app/src/main/java/ticket/booking/localDb/users.json";
     private ObjectMapper objectMapper = new ObjectMapper();
     private List<User> userList;
 
